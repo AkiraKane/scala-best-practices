@@ -328,7 +328,7 @@ As a guideline, don't shy away from writing comments and document:
 Shared writes are not parallelizable, whereas shared reads are
 embarrassingly parallelizable. As a metaphor, 100,000 people can watch
 the same soccer game on the same stadium at the same time (reads), but
-100,000 people cannot all use the same bathroom (writes). In a
+they cannot all comment on the game at the same time (writes). In a
 multi-threading scenario, prefer single producer / multi consumer
 scenarios. This has the effect of avoiding contention and performance
 problems. An app does not scale vertically with multiple producers
